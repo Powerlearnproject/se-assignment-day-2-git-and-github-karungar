@@ -22,6 +22,14 @@ A version control, also called a source control is a software tool that help dev
 ### How to create a new repository on GitHub
 1. Open your GitHub account and In the upper-right corner of the page, select the drop down menu with "+" in it then click "New repository".![Create New Repo deopdown](https://docs.github.com/assets/cb-29762/mw-1440/images/help/repository/repo-create-global-nav-update.webp)
 2. write the name of your new repository. For example "hello-world".![Repo  Name](https://docs.github.com/assets/cb-61121/mw-1440/images/help/repository/create-repository-name.webp)
+3. Add a description of your repository (optional). For example, "My first repository on GitHub."
+4. Choose a repository visibility. (Either public or private).
+5. Select "Initialize this repository with a README".
+6. Click "Create repository".
+### Important decisions 
+* When you create a repository, you can choose to make the repository public or private. "Public" repositories are accessible to everyone on the internet while "Private" repositories are only accessible to you, people you explicitly share access with.
+* Also creating a README.md file is recommended for easier understanding and navigation on your work.
+* You could also consider securing your repository using free security features such as code scanning, secret scanning, dependabot alerts and push protection.
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
