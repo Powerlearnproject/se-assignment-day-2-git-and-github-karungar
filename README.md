@@ -9,6 +9,14 @@ A version control, also called a source control is a software tool that help dev
 * Provides distributed version control: Teams of developers can work together in a centralized Git repository and track changes as they go to stay organized.
 * Robust documentation and support: GitHub offers an on-premises version in addition to the well-known SaaS product. GitHub Enterprise supports integrated development environments and continuous integration tools, as well as many third-party apps and services. It offers more security and auditability than the SaaS version.
 * Encourages collaboration: GitHub encourages teams to work together to build and edit their site content.
+### How version control maintains project integrity
+1. Version control systems create a complete codebase history, stored in a specialized database, and provide the entire team with a single and secure source of truth.
+2. Version control systems help teams avoid conflict and create opportunities to experiment and innovate by tracking every change.
+3. Using a version control tool allows developers to find errors fast, roll back to a previous version and correct the problem thus mitigating the impact of the error.
+4.  A version control system encourages developers to follow best practices and write clean code that is easy to access, understand, and maintain. This Improves the code quality.
+5. With version control, every code change is tracked, restorable, and revertible thus insuring from losses.
+6. Team collaboration and communication improve with version control by enabling visibility to the code documentation and its history.
+7. Version control improves effeciency and productivity by automating testing, analysis, and deployment for fast, consistent results.
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 
