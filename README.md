@@ -20,7 +20,7 @@ A version control, also called a source control is a software tool that help dev
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 ### How to create a new repository on GitHub
-1. Open your GitHub account and In the upper-right corner of the page, select the drop down menu with "+" in it then click "New repository".! [Create New Repo deopdown] (https://docs.github.com/assets/cb-29762/mw-1440/images/help/repository/repo-create-global-nav-update.webp)
+1. Open your GitHub account and In the upper-right corner of the page, select the drop down menu with "+" in it then click "New repository".![Create New Repo deopdown](https://docs.github.com/assets/cb-29762/mw-1440/images/help/repository/repo-create-global-nav-update.webp)
 2. 
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
