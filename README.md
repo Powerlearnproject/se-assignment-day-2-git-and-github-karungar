@@ -39,10 +39,10 @@ A README file in a repository communicates important information about your proj
 * Where users can get help with your project
 * Who maintains and contributes to the project
 ### How README helps in collaboration
-1. Gives clarity
-2. Helps onboarding
-3. Community Engagements
-4. Helps in problem solving
+1. Gives clarity of the project's purpose, functionality, and how to use it.
+2. Helps onboarding new team members as they can understand easily and quickly the projects purpose and how to contribute.
+3. It tells potential users and contributors what your project does and why they should care and potentially attract a community of enthusiasts thus leading to project growth and improvements.
+4. Helps in problem solving as it often contains troubleshooting tips, FAQs, and other resources that can help users and contributors solve problems independently. 
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
 
