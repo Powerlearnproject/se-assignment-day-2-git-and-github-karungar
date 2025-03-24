@@ -68,8 +68,10 @@ Public repositories are accessible to everyone on the internet while private rep
 #### From Local to Remote repository
 1. Once you make changes in your local repository and want to push it to your GitHub repo, you first run the command "git status" to check the changes.
 2. Then run "git add" command to stage the changes. Either "git add ." or "git add <filename>" (incase you want to stage all changes or change in a specific file).
-3. commit your changes to your repository by running the command "git commit".when commiting you must include a clear message describing the change using the -m flag. for example **git commit -m Added new feature**
-   
+3. commit your changes to your repository by running the command "git commit".when commiting you must include a clear message describing the change using the -m flag. For example **git commit -m Added new feature**   
+#### Within the remote repository
+1. You could change the features of a new repository, say the README file.
+2. Once you have made tehe desired changes, you can preview the changes and when satisfied click the **commit changes** button.
 ### What are commits? 
 A commit refers to a snapshot of the changes made, including a reference to the previous commit in the branch’s history. Through a commit, developers have the visibility of code changes over time and who made the changes. This way it is possible to know where an error occured, and roll back to previous versions of the code if necessary.
 
