@@ -82,10 +82,14 @@ After one works on their branch they can use pull requests and allow their count
 ### Process of creating, using and merging branches 
 The Feature Branch Workflow assumes a central repository, and main represents the official project history. Instead of committing directly on their local main branch, developers create a new branch every time they start work on a new feature.
 1.All branches are created off the latest code state of a project in the main branch.
+2.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
+Forking differs from cloning in that instead of using a single server-side repository to act as the “central” codebase, it gives every developer their own server-side repository. When one forks the repository, they will have both a private and a public server-side repository while when one clones a repo they will have a local copy of the remote repository in their local environments.
+In a Forking Workflow, developers push changes to their own server-side repositories, and only the project maintainer can push to the official repository. This allows the maintainer to accept commits from any developer without giving them write access to the official codebase.
+Scenarios that necessitate forking is when a developer does not have access to the upstream repository like when proposing bug fixes or when using someone else's project as a starting point of your own idea.
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
 
