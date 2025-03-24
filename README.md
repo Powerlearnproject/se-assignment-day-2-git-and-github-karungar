@@ -86,7 +86,7 @@ The Feature Branch Workflow assumes a central repository, and main represents th
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 A pull request is a proposal to merge a set of changes from one branch into another. Through a pull request, collaborators review and discuss the proposed set of changes by a developer before they integrate the changes into the main codebase. Pull requests display the differences( diffs), between the content in the source branch and the content in the target branch.
-### Creationg a pull request
+### Creating a pull request
 1. On GitHub, navigate to the main page of the repository.
 2. In the "Branch" menu, choose the branch that contains your changes.
 3. Above the list of files, in the yellow banner, click Compare & pull request to create a pull request for the associated branch.
@@ -100,5 +100,8 @@ In a Forking Workflow, developers push changes to their own server-side reposito
 Scenarios that necessitate forking is when a developer does not have access to the upstream repository like when proposing bug fixes or when using someone else's project as a starting point of your own idea.
 
 ## Examine the importance of issues and project boards on GitHub. How can they be used to track bugs, manage tasks, and improve project organization? Provide examples of how these tools can enhance collaborative efforts.
+A project board is a GitHub feature that allows you to organize and track tasks in one place on a Kanban-style board with columns like “To Do,” “In Progress,” and “Done. within the project one can create issues to help assign responsibilities, set deadlines, and track progress. Issues help in managing tasks, bugs, and feature requests. 
+### how they improve project organization and enhance collaborative efforts
+
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
