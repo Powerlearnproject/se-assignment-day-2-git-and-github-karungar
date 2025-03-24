@@ -64,6 +64,14 @@ Public repositories are accessible to everyone on the internet while private rep
 * May have to incurr costs because it is not free for more than three collaborators 
 * Limits collaboration to invitees only
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+### Steps for making first commit
+#### From Local to Remote repository
+1. Once you make changes in your local repository and want to push it to your GitHub repo, you first run the command "git status" to check the changes.
+2. Then run "git add" command to stage the changes. Either "git add ." or "git add <filename>" (incase you want to stage all changes or change in a specific file).
+3. commit your changes to your repository by running the command "git commit".when commiting you must include a clear message describing the change using the -m flag. for example **git commit -m Added new feature**
+   
+### What are commits? 
+A commit refers to a snapshot of the changes made, including a reference to the previous commit in the branch’s history. Through a commit, developers have the visibility of code changes over time and who made the changes. This way it is possible to know where an error occured, and roll back to previous versions of the code if necessary.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
