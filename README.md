@@ -76,6 +76,12 @@ Public repositories are accessible to everyone on the internet while private rep
 A commit refers to a snapshot of the changes made, including a reference to the previous commit in the branch’s history. Through a commit, developers have the visibility of code changes over time and who made the changes. This way it is possible to know where an error occured, and roll back to previous versions of the code if necessary.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
+### Branching in Git 
+All feature development takes place in a dedicated branch instead of the main branch. By branching, multiple developers can work on a particular feature without disturbing the main codebase. This also safeguards the main branch from broken code.
+After one works on their branch they can use pull requests and allow their counterparts contribute to their code before joining it to the main codebase.
+### Process of creating, using and merging branches 
+The Feature Branch Workflow assumes a central repository, and main represents the official project history. Instead of committing directly on their local main branch, developers create a new branch every time they start work on a new feature.
+1.All branches are created off the latest code state of a project in the main branch.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
