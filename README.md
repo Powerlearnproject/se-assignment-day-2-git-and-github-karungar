@@ -47,22 +47,22 @@ A README file in a repository communicates important information about your proj
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
 Public repositories are accessible to everyone on the internet while private repositories are only accessible to the owner and any invited collaborators.
 ### Advantages of Public repositories
-Easy contributions because anyone can view, fork and clone code.
-Attracts diverse developers
-Increases project exposure to potential employers
-Free hosting for open-source projects
-Improves coding skills of developer as one receives feedback
+* Easy contributions because anyone can view, fork and clone code.
+* Attracts diverse developers
+* Increases project exposure to potential employers
+* Free hosting for open-source projects
+* Improves coding skills of developer as one receives feedback
 ### Disadvantages of Public repositories
-Prone to security breaches as attackers can exploit vulnerabilities 
-Potential exposure of sensitive data
+* Prone to security breaches as attackers can exploit vulnerabilities 
+* Potential exposure of sensitive data
 ### Advantages of Private repositories
-Safeguards intellectual property
-Keeps sensitive data secure
-Limits visibility to authorized team members
-Allows testing without public exposure
+* Safeguards intellectual property
+* Keeps sensitive data secure
+* Limits visibility to authorized team members
+* Allows testing without public exposure
 ### Disadvantages of Private repositories
-May have to incurr costs because it is not free for more than three collaborators 
-Limits collaboration to invitees only
+* May have to incurr costs because it is not free for more than three collaborators 
+* Limits collaboration to invitees only
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
