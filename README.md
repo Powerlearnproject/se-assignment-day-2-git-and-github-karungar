@@ -85,7 +85,15 @@ The Feature Branch Workflow assumes a central repository, and main represents th
 2.
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
-
+A pull request is a proposal to merge a set of changes from one branch into another. Through a pull request, collaborators review and discuss the proposed set of changes by a developer before they integrate the changes into the main codebase. Pull requests display the differences( diffs), between the content in the source branch and the content in the target branch.
+### Creationg a pull request
+1. On GitHub, navigate to the main page of the repository.
+2. In the "Branch" menu, choose the branch that contains your changes.
+3. Above the list of files, in the yellow banner, click Compare & pull request to create a pull request for the associated branch.
+4. Use your branches dropdown menu to select the branch you'd like to merge your changes into, then use the compare branch drop-down menu to choose the topic branch you made your changes in.
+5. Type a title and description for your pull request.
+6. To create a pull request that is ready for review, click Create Pull Request.Otherwise you can create a draft pull request from the drop-down menu.
+   
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 Forking differs from cloning in that instead of using a single server-side repository to act as the “central” codebase, it gives every developer their own server-side repository. When one forks the repository, they will have both a private and a public server-side repository while when one clones a repo they will have a local copy of the remote repository in their local environments.
 In a Forking Workflow, developers push changes to their own server-side repositories, and only the project maintainer can push to the official repository. This allows the maintainer to accept commits from any developer without giving them write access to the official codebase.
