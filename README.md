@@ -105,12 +105,8 @@ A project board is a GitHub feature that allows you to organize and track tasks 
  Project boards help in managing the project by breaking it into manageable tasks that can be time bound. Issues can be used track bug reports, new features and ideas, and anything else you need to write down or discuss with your team. Issues can also be brocken to sub-issues for finer visibility of the hierarchy of work to be done.
 
 ## Reflect on common challenges and best practices associated with using GitHub for version control. What are some common pitfalls new users might encounter, and what strategies can be employed to overcome them and ensure smooth collaboration?
-Best Practices
-1. Breaking a large issue into smaller issues makes the work more manageable and enables team members to work in parallel. It also leads to smaller pull requests, which are easier to review.
-2. Issues and pull requests include built-in features to let you easily communicate with your collaborators. Use @mentions to alert a person or entire team about a comment. Assign collaborators to issues to communicate responsibility. Link to related issues or pull requests to communicate how they are connected.
-3. Use your project's description and README to share information about the project.
-4. Use project views to look at your project from different angles.
-5. Projects automatically stay up to date with GitHub data, such as assignees, milestones, and labels. When one of these fields changes in an issue or pull request, the change is automatically reflected in your project.
-6. You can automate tasks to spend less time on busy work and more time on the project itself. The less you need to remember to do manually, the more likely your project will stay up to date.
-7. Take advantage of the various field types to meet your needs.
-8. 
+### Common challenges
+1. Merge Conflicts due to lack of proper communication among the development team. To avoid this team members should regularly pull the latest changes from the remote repository before making their modifications inoder to identify potential conflicts early on. They should also communicate regularly to improve on the team's synchrony.
+2. Having a balance between control and collaboration. Protection of branches and push restrictions are good safety precautions but they can be a problem when urgent changes must be made. A posible solution would be to encourage team members to adopt a workflow centered on pull requests for safety of the main code. At the same time certain individuals(adminstrators) could have access to make urgent changes when needed.
+3. Unclear commit messages and improper documentation. Solution is to encourage team members to adopt a culture of writing clear commit messages to ensure tracking of changes. Documentation is essential for transparency, sustainability, accountability, and responsibility. It helps in team collaboration and overall success.
+
